@@ -15,17 +15,38 @@
 			<a href="../index.html"><img src="../static/images/icon/logo2.png" style="width: 120px;"></a></div>
 			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../static/images/icon/menu.png"></div>
 			<ul id="list-switch">
-				<li><a href="index.html"><img src="../static/images/courses/algo.png" class="icon">Home</a></li>
+				<li><a href="../index.html"><img src="../static/images/courses/algo.png" class="icon">Home</a></li>
 				<li><a href="stem.html"><img src="../static/images/courses/d1.png" class="icon">STEM Overview</a></li>
 				<li><a href="advanced.html"><img src="../static/images/courses/paper.png" class="icon">Advanced STEM</a></li>
 				<li><a href="computer_courses.html"><img src="../static/images/courses/computer.png" class="icon">Computer S. Courses</a></li>
 				<li><a href="computer_courses.html#data"><img src="../static/images/courses/data.png" class="icon">Data Structures</a></li>
 				<li><a href="computer_courses.html#projects"><img src="../static/images/courses/projects.png" class="icon">Projects</a></li>
 			</ul>
+
+			<img src="../static/images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+
 			<div class="search" id="search-switch">
 				<input type="search" placeholder="Search" class="srch"><button id="srchbtn"><img src="../static/images/icon/search.png"></button>
 			</div>
 		</div>
+
+		<!-- SIDE MENU -->
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="../static/images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="../static/images/creator/name.png" alt="Username">
+				<p>User</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+
 	</header>
 	
 
