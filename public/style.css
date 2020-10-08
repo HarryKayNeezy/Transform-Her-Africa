@@ -258,7 +258,7 @@ a, button {
 	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("./images/extra/b1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: cursive;
+	font-family: 'Open Sans', sans-serif;
 	z-index: -9;
 }
 .smbox {
@@ -287,7 +287,7 @@ a, button {
 .smbox .det {
 	font-size: 20px;
 	color: #272529;
-	font-family: cursive;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*Title*/
@@ -864,6 +864,8 @@ footer {
 	background: #000D;
 	padding: 50px 0; 
 }
+
+
 footer .footer-container {
 	max-width: 1300px;
 	margin: auto;
@@ -938,6 +940,9 @@ footer .btn:hover {
 @media screen and (max-width: 960px) {
 	.footer-container {
 		max-width: 600px;
+	}
+	footer .number {
+		text-align: center;
 	}
 	.right-col {
 		width: 100%;
